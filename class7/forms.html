@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/profile.php">
+<p>What device do you listen to music on?</p>
+<select name="devices">
+    <option value="ipod">iPod</option>
+    <option value="radio" >Radio</option>
+    <option value="computer">Computer</option>
+    <option value="Mobile" selected="selected">Mobile</option>
+  </select>
+</form>
+<form action="http://www.example.com/profile.php">
+<p>Do you play any of the following instruments? 
+(You can select more than one option by holding 
+down control on a PC or command key on a Mac 
+while selecting different options.)</p>
+<select name="instruments" size="4" 
+multiple="multiple">
+<option value="guitar" selected="selected">
+Guitar</option>
+<option value="drums">Drums</option>
+<option value="keyboard" 
+selected="selected">Keyboard</option>
+<option value="bass">Bass</option>
+</select>
+</form>
+<form action="http://www.example.com/upload.php"
+method="post">
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
+</form>
+<form action="http://www.example.com/subscribe.php">
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="submit" name="subscribe" 
+value="submit"/>
+</form>
+<form action="http://www.example.org/subscribe.php">
+<p>Subscribe to our email list:</p> 
+  <input type="text" name="email" />
+  <input type="image" src="submitimage.jpg" 
+width="100" height="100" />
+</form>
+<form action="http://www.example.com/add.php"> 
+<button><img src="submitimage.jpg" alt="add" 
+width="100" height="50" />Add</button>
+<input type="hidden" name="bookmark" 
+value="lyrics" />
+</form>
+<br>
+<hr>
+<br>
+<form>
+<label>Age: <input type="text" name="age" /></label>
+<br/ >
+Gender:
+<input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" 
+value="m">
+<label for="male">Male</label>
+</form>
+<br>
+<hr>
+<fieldset>
+<legend>Contact details</legend>
+<label>Email:<br />
+<input type="text" name="email" /></label><br />
+<label>Mobile:<br />
+<input type="text" name="mobile" /></label><br />
+<label>Telephone:<br />
+<input type="text" name="telephone" /></label>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Educational Details</legend>
+    <select name="Details" id="">
+    <option value="ipod">iPod</option>
+    <option value="radio" >Radio</option>
+    <option value="computer">Computer</option>
+    <option value="Mobile" selected="selected">Mobile</option>
+    </select>
+<input type="text" name="email" /></label><br />
+<label>Mobile:<br />
+<input type="text" name="mobile" /></label><br />
+<label>Telephone:<br />
+<input type="text" name="telephone" /></label>
+<br><br><br>
+</fieldset>
+<form action="http://www.example.com/login/"
+method="post"> 
+<label for="username">Username:</label>
+<input type="text" name="username"
+required="required" /></title><br /> 
+<label for="password">Password:</label>
+<input type="password" name="password"
+required="required" /> 
+<input type="submit" value="Submit" />
+</form>
+<form action="http://www.example.com/bookings/" 
+method="post">
+<label for="username">Departure date:</label>
+<input type="date" name="depart" />
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
